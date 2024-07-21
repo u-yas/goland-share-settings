@@ -1,0 +1,19 @@
+{
+  "go.useLanguageServer": true,
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "gopls": {
+    "formatting.gofumpt": true
+  },
+  "go.testEnvFile": ".env",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--fast", "--config", ".golangci.yml"]
+}

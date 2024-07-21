@@ -1,11 +1,13 @@
 package main
 
-func main() {
+import "os"
 
+func main() {
 	a := "hogefuga"
-	aho(a)
+	_, err := os.ReadDir("")
+	neko(a)
+	err.Error()
 }
 
-func aho(a string) {
-	 
+func neko(a string) {
 }
